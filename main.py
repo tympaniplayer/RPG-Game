@@ -2,9 +2,11 @@ import pygame
 import player
 import wall
 import bullet
+import rooms
 from player import *
 from wall import *
 from bullet import *
+from rooms import *
 
 
 
@@ -29,12 +31,7 @@ all_sprites_list = pygame.sprite.RenderPlain()
 player = Player()
 all_sprites_list.add(player)
 
-# Walls
-wall_list = pygame.sprite.RenderPlain()
-wall = Wall(350, 0, 10 , 300)
-wall_list.add(wall)
-wall = Wall(350, 400, 10, 300)
-wall_list.add(wall)
+wall_list = playerHouse()
 
 # Edges
 wall = Wall(0, 0, 0 , 700)
