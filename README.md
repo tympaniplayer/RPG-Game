@@ -14,3 +14,7 @@ Here are some features I am hoping to add soon:
 	b. Later will come projectile monsters
 6. An inventory
 7. An item class that we can implement to have different types of elements.
+
+I found a great webpage with some code how to handle sprite sheets, which would be a lot easier than snipping
+them in MSPaint:
+	http://pygame.org/wiki/Spritesheet
