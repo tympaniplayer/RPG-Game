@@ -31,7 +31,7 @@ all_sprites_list = pygame.sprite.RenderPlain()
 player = Player()
 all_sprites_list.add(player)
 
-wall_list = playerHouse()
+wall_list = TestRoom()
 
 # Edges
 wall = Wall(0, 0, 0 , 700)

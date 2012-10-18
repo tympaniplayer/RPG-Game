@@ -33,8 +33,8 @@ class Player(pygame.sprite.Sprite):
         self.image = self.images[1]
 
         self.rect = self.image.get_rect()
-        self.rect.x = 5
-        self.rect.y =5
+        self.rect.x = 100
+        self.rect.y = 100
 
 
     # Change the speed of the player
